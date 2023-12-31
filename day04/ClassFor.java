@@ -10,5 +10,7 @@ public class ClassFor {
         for (int i = 0; i <= numeroParar; i++) {
             System.out.println(i);
         }
+
+        sc.close();
     }
 }

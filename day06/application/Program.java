@@ -11,7 +11,6 @@ public class Program {
         Scanner sc = new Scanner(System.in);
 
         Product product = new Product();
-
         System.out.println("Dados do produto");
         System.out.print("Nome: ");
         product.name = sc.nextLine();

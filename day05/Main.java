@@ -9,6 +9,7 @@ public class Main {
         int c = sc.nextInt();
         int resultado = max(a, b, c);
         System.out.println("O maior é o " + resultado);
+        sc.close();
     }
 
     public static int max(int a, int b, int c) {
