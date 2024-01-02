@@ -19,17 +19,7 @@ public class Program {
         System.out.print("Quantidade: ");
         product.quantity = sc.nextInt();
 
-        System.out.println(product.totalValue());
-        
-        System.out.printf("Adicionar mais %s: ", product.name);
-        product.addProduct(sc.nextInt());
-        
-        System.out.println(product.totalValue());
-        
-        System.out.printf("Remover alguma %s: ", product.name);
-        product.removeProduct(sc.nextInt());
-        
-        System.out.println(product.totalValue());
+        System.out.println(product);
 
         sc.close();
     }
