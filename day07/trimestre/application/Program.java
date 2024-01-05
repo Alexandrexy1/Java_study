@@ -1,9 +1,9 @@
-package NotasTrimestre.application;
+package trimestre.application;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import NotasTrimestre.entities.TestScore;
+import trimestre.entities.TestScore;
 
 public class Program {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package NotasTrimestre.entities;
+package trimestre.entities;
 
 public class TestScore {
     public String name;
