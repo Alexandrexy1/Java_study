@@ -15,4 +15,5 @@ public class Program {
         System.out.println(person3.hashCode()); // Different number
         System.out.println(person.equals(person3)); // False
     }
+
 }
