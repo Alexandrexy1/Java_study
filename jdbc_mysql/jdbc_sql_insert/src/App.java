@@ -46,7 +46,7 @@ public class App {
         } catch(ParseException e) {
             e.printStackTrace();
         } finally {
-
+            DB.closeStatement(preparedSt);
             DB.closeConnection();
         }
 
